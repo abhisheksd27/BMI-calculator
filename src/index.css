@@ -1,0 +1,58 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #2f2f2f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.input-section {
+  margin-bottom: 2rem;
+}
+
+.slider-output {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.input-slider {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: #3f3f3f;
+  border: none;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.input-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.output-section {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.output {
+  font-size: 2rem;
+  color: #4caf50;
+}
